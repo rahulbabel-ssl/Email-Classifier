@@ -16,6 +16,18 @@ The app will allow users to log in with Google OAuth, fetch Gmail emails, and cl
 
 **Known Issue:**  
 Currently, the project shows the following build error when running the dev server:
+Error Type: Build Error
+
+Error Message: Module not found: Can't resolve 'fs'
+
+Build Output:
+./node_modules/@nodelib/fs.scandir/out/adapters/fs.js:4:12
+Module not found: Can't resolve 'fs'
+
+Import trace:
+./node_modules/@nodelib/fs.scandir/out/adapters/fs.js [Client Component Browser]
+...
+Next.js version: 16.0.0 (Turbopack)
 
 ## Getting Started
 
